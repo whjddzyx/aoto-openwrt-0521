@@ -10,9 +10,9 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
-echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
-echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
+#echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
+#echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
+#echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
 
 
 

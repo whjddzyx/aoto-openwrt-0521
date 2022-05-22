@@ -10,5 +10,13 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
+echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
+
+
+
+#echo 'CONFIG_PACKAGE_CONFIG_PACKAGE_samba=n' >> .config
+
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
